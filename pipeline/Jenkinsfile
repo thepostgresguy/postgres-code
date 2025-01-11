@@ -11,13 +11,14 @@ pipeline {
                 command:
                 - "/bin/sh"
                 - "cat"
+                tty: true
           '''
         }
     }
     stages {
         stage('Test') {
             steps {
-                sh 'node --eval "console.log(process.platform,process.env.CI)"'
+                sh 'python3 version"'
             }
         }
     }
