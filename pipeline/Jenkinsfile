@@ -11,7 +11,7 @@ pipeline {
                 command:
                 - /bin/sh
                 - -c
-                - 'while true; do; sleep 10; echo "I'm alive"; done'
+                - 'while true; do; sleep 10; done'
                 tty: true
           '''
         }
