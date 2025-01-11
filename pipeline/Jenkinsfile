@@ -9,8 +9,8 @@ pipeline {
               - name: jworker
                 image: gmldba/jenkins-worker:latest
                 command
-                - "/bin/sh"
-                - "cat"
+                - /bin/sh
+                - cat
           '''
         }
     }
