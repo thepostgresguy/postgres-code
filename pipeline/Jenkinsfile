@@ -9,8 +9,9 @@ pipeline {
               - name: jworker
                 image: gmldba/jenkins_worker:latest
                 command:
-                - "/bin/sh"
-                - "cat"
+                - /bin/sh
+                - -c
+                - 'ls -l'
                 tty: true
           '''
         }
