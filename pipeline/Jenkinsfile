@@ -7,7 +7,7 @@ pipeline {
             spec:
               containers:
               - name: jworker
-                image: gmldba/jenkins-worker:latest
+                image: gmldba/jenkins_worker:latest
                 command:
                 - "/bin/sh"
                 - "cat"
