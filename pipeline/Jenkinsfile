@@ -19,8 +19,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'sudo su'
-                sh 'python --version'
+                sh 'ls -la /usr/local/bin'
             }
         }
     }
