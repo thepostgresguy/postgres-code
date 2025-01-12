@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh '/usr/local/bin/python --version'
+                bash '/usr/local/bin/python --version'
             }
         }
     }
