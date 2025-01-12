@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'ls -la /usr/local/bin'
+                sh 'env'
             }
         }
     }
