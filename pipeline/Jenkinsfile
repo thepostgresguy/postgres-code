@@ -19,7 +19,8 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'which python'
+                sh 'sudo su'
+                sh 'python --version'
             }
         }
     }
