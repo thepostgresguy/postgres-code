@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'ls /usr/local/bin/'
-                sh 'which python'
+                sh 'which python3'
             }
         }
     }
